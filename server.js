@@ -202,11 +202,11 @@ app.post('/mpesa-proxy', async (req, res) => {
       body: body ? JSON.stringify(body) : undefined
     });
 
-    console.log(`📊 M-Pesa Response Status: ${response.status}`);
-    console.log(`📊 M-Pesa Response Status Text: ${response.statusText}`);
+    console.log(` M-Pesa Response Status: ${response.status}`);
+    console.log(` M-Pesa Response Status Text: ${response.statusText}`);
     
     const contentType = response.headers.get('content-type');
-    console.log(`📊 Content-Type: ${contentType}`);
+    console.log(` Content-Type: ${contentType}`);
     
     let data;
 
