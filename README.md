@@ -1,6 +1,6 @@
 # Paytag M-Pesa Proxy Server
 
-Node.js proxy server to handle M-Pesa API requests with correct Origin header (102.212.246.90).
+Node.js proxy server to handle M-Pesa API requests with correct Origin header (60.167.136.50).
 
 ## Installation
 
@@ -90,7 +90,7 @@ Health check endpoint
 ## Testing
 
 ```bash
-curl http://localhost:3000/health
+curl http://localhost:5000/health
 ```
 
 ## Update Frontend
